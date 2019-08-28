@@ -9,13 +9,16 @@ const todoItem = 'Вывести в Footer количество дел';
 const App = () => {
   const items = [
     {
-      value: 'Вывести в Footer количество дел'
+      value: 'Вывести в Footer количество дел',
+      isDone: false
     },
     {
-      value: 'Передать три раза в Item разные значения'
+      value: 'Передать три раза в Item разные значения',
+      isDone: false
     },
     {
-      value: 'Прислать ссылку на pull request'
+      value: 'Прислать ссылку на pull request',
+      isDone: true
     }
   ];
   
